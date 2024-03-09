@@ -1,0 +1,165 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: gilroy;
+}
+
+#main {
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(#1b1e25, #323642);
+}
+#nav {
+  /* background-color: blue; */
+  height: 10%;
+  width: 100%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7%;
+  font-size: 20px;
+  font-family: gilroy;
+}
+h2 {
+  position: absolute;
+  top: 12%;
+  left: 22%;
+  font-size: 30px;
+  letter-spacing: 19px;
+  color: rgba(255, 255, 255, 0.988);
+  /* background-color: brown; */
+}
+#shoe img {
+  background-position: center;
+  background-size: cover;
+  width: 50%;
+  height: 60%;
+  position: absolute;
+  top: 25%;
+  left: 22%;
+}
+
+#shoe h1 {
+  color: #d9af5e;
+  font-size: 300px;
+  position: absolute;
+  top: 15%;
+  left: 12%;
+}
+
+#progress {
+  position: absolute;
+  bottom: 5%;
+  left: 10%;
+  background-color: rgb(128, 128, 128);
+  height: 3px;
+  width: 10%;
+  margin-left: 10px;
+}
+#growth {
+  position: relative;
+  background-color: #d9af5e;
+  height: 100%;
+  width: 60%;
+}
+#progress h4 {
+  position: absolute;
+  top: -30px;
+  color: white;
+  letter-spacing: 8px;
+}
+#progress h5 {
+  position: absolute;
+  top: -30px;
+  right: 2px;
+  color: white;
+  letter-spacing: 8px;
+}
+
+#a {
+  position: absolute;
+  bottom: 5%;
+  left: 35%;
+  color: white;
+  height: 5%;
+  width: 10%;
+  background: transparent;
+  border-radius: 20px;
+  margin-left: 10px;
+}
+
+#b {
+  position: absolute;
+  bottom: 5%;
+  left: 50%;
+  color: white;
+  height: 5%;
+  width: 10%;
+  background-color: #d9af5e;
+  border-radius: 20px;
+}
+
+h3 {
+  color: #d9af5e;
+  letter-spacing: 10px;
+  position: absolute;
+  bottom: 5%;
+  right: 10%;
+  font-size: 15px;
+}
+
+#dots {
+  /* background-color: red; */
+  height: 30%;
+  width: 3%;
+  position: absolute;
+  top: 45%;
+  right: 4px;
+}
+
+#dot1 {
+  background-color: white;
+  height: 10%;
+  width: 50%;
+  border-radius: 50%;
+  position: absolute;
+  top: 5%;
+  left: 8px;
+}
+#dot2 {
+  background-color: #4d4a46;
+  height: 10%;
+  width: 50%;
+  border-radius: 50%;
+  position: absolute;
+  top: 20%;
+  left: 8px;
+}
+
+#dot3 {
+  background-color: #060500;
+  height: 10%;
+  width: 50%;
+  border-radius: 50%;
+  position: absolute;
+  top: 35%;
+  left: 8px;
+}
+
+#dot4 {
+  background-color: #d9af5e;
+  height: 10%;
+  width: 50%;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 8px;
+}
